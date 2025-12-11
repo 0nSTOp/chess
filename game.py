@@ -221,7 +221,8 @@ def dispo(echiquier, case): #work in progress : roque ; changer le nom de la lis
             tab[case[0]][case[1]] = "Vide"
             tab[coup[0]][coup[1]] = "Roi_b"
             for i in pieces_n:
-                if dispo()
+                if #la piece est un pion et la case est devant lui...
+                if dispo(tab, (pieces_n[0], pieces_n[1])):
 ###############################################################################
 
     if piece % 2 == 0: #verifie que le mouvement met pas le roi blanc en danger
